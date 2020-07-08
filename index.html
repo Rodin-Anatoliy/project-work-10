@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Regular Expressions</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg" alt="logo">
+        <p class="header__logo-sub">Регулярные выражения</p>
+    </header>
+    <main class="container">
+        <div class="cover">
+            <div class="cover__image"></div>
+            <h1 class="cover__heading">RegExp</h1>
+        </div>
+        <div class="block">
+            <form class="form" name="register" action="http://httpbin.org/post" method="POST">
+                <h3>Форма регистрации</h3>
+                <fieldset class="form__fieldset">
+                    <div class="form__field">
+                        <input class="form__input" type="text" name="name" pattern="" placeholder="Имя" required />
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input" type="text" name="email" pattern="" placeholder="E-Mail" required />
+                        <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="" minlength="" maxlength="18"  required/>
+                        <span class="form__error">Недопустимый формат номера</span>
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input" type="text" name="url" pattern="" placeholder="Ваш сайт" required/>
+                        <span class="form__error">URL в формате: http://mysite.ru</span>
+                    </div>
+                    <button class="form__button" type="text">Отправить</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>     
+</body>
+</html>
