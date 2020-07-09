@@ -2,7 +2,7 @@
 
 Ссылка на рабочую версию проекта https://rodin-anatoliy.github.io/project-work-10/
 
-Версия проекта v0.3 - Add readme.md markdown
+Версия проекта v0.5 - Udate readme.md
 
 
 
