@@ -1,7 +1,7 @@
 # Проектная работа 10
 Работа с Git и Github, регулярные выражения
 #
-Ссылка на рабочую версию проекта https://rodin-anatoliy.github.io/project-work-10/
+[Ссылка на рабочую версию проекта](https://rodin-anatoliy.github.io/project-work-10/)
 
 Версия проекта v0.8 - fixed 2.0
 
